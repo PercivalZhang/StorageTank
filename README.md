@@ -17,7 +17,7 @@ StorageTank blockchain is a decentralized network used for data storage and exch
   - decentralized metadata storage
   - strong and convenient search based on metadata
   
-### Side chain Node
+### Side Chain Node
 side chain forked from EOS to support data storage and exchange scenario
   - much more cheap resource fee
   - customized block explorer
