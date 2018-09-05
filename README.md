@@ -29,7 +29,11 @@ side chain forked from EOS to support data storage and exchange scenario
   - much more cheap resource fee
   - customized block explorer
 
-we provide contracts to manage the relationship between source chain account and our side chain account.
+### Inter-blockchain Communication 
+
+A user on the parent chain first has to send their coins to an output address, where the coins become locked so the user is unable to spend them elsewhere. Once the transaction has been completed, a confirmation is communicated across the chains followed by a waiting period for extra security. After the waiting period, the equivalent number of coins is released on the sidechain, allowing the user to access and spend them there. The reverse happens when moving back from a sidechain to the main chain.
+
+Contracts are constructed on both chains to hanlde the communications between source chain account and our side chain account.
  - eos side chain contract for data exchange
    contract for data exchange
  - inter-blockchain communication
