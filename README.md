@@ -18,6 +18,8 @@ StorageTank blockchain is a decentralized network used for data storage and exch
   - strong and convenient search based on metadata
   
 ### Side Chain Node
+> A sidechain is a separate blockchain that is attached to 
+> its parent blockchain(source chain or main chain) using a two-way peg.
 side chain forked from EOS to support data storage and exchange scenario
   - much more cheap resource fee
   - customized block explorer
