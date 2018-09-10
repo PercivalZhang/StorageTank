@@ -25,8 +25,8 @@ StorageTank blockchain is a decentralized network used for data storage and exch
 > A sidechain is a separate blockchain that is attached to 
 > its parent blockchain(source chain or main chain) using a two-way peg.
 
-> **Asset Registration Contract:** regist asset into side chain with minimum data.
-> **Inter-chain Contract:** inter-chain token exchange.
+**Asset Registration Contract:** regist asset into side chain with minimum data.
+**Inter-chain Contract:** inter-chain token exchange.
 
 The two-way peg enables interchangeability of assets at a predetermined rate between the parent blockchain and the sidechain. The original blockchain is usually referred to as the ‘main chain’ or 'source chain' and all additional blockchains are referred to as ‘sidechains’.
 
