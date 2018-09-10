@@ -25,9 +25,11 @@ StorageTank blockchain is a decentralized network used for data storage and exch
 > A sidechain is a separate blockchain that is attached to 
 > its parent blockchain(source chain or main chain) using a two-way peg.
 
-**Asset Registration Contract:** regist asset into side chain with minimum data.
+**Asset Registration and Exchange Contract:** 
+- regist asset into side chain with minimum data and handle asset exchange
 
-**Inter-chain Contract:** inter-chain token exchange.
+**Inter-chain Contract:**
+- inter-chain token exchange.
 
 The two-way peg enables interchangeability of assets at a predetermined rate between the parent blockchain and the sidechain. The original blockchain is usually referred to as the ‘main chain’ or 'source chain' and all additional blockchains are referred to as ‘sidechains’.
 
@@ -42,8 +44,6 @@ side chain forked from EOS to support data storage and exchange scenario
 A user on the parent chain first has to send their coins to an output address, where the coins become locked so the user is unable to spend them elsewhere. Once the transaction has been completed, a confirmation is communicated across the chains followed by a waiting period for extra security. After the waiting period, the equivalent number of coins is released on the sidechain, allowing the user to access and spend them there. The reverse happens when moving back from a sidechain to the main chain.
 
 Contracts are constructed on both chains to hanlde the communications between source chain account and our side chain account.
- - eos side chain contract for data exchange
-   contract for data exchange
  - inter-blockchain communication
      - eos side chain contract
        - release side chain asset to side chain account after receiving proof of locked asset on source chain
