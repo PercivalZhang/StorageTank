@@ -8,6 +8,10 @@ StorageTank blockchain is a decentralized network used for data storage and exch
   - convenient data search based on self-descriptive metadata
   - multiple source chains support(eos plus ethereum)
 
+### Design Sketch
+
+![sub systems design](https://www.processon.com/view/link/5b90a100e4b015327ad297f1)
+
 ### Storage Node
 
   - file or data is stored into ipfs network and hashId based on data content is the unique identifer of data
