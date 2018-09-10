@@ -10,7 +10,7 @@ StorageTank blockchain is a decentralized network used for data storage and exch
 
 ### Design Sketch
 
-![sub systems design](https://www.processon.com/view/link/5b90a100e4b015327ad297f1)
+![sub systems design](http://47.99.61.209/ipfs/QmdJwGzcTtjsfMSB4PeboHU9w4k6p9Z97Ge3JutEStBhXD)
 
 ### Storage Node
 
