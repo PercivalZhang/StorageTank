@@ -26,7 +26,8 @@ StorageTank blockchain is a decentralized network used for data storage and exch
 > its parent blockchain(source chain or main chain) using a two-way peg.
 
 **Asset Registration and Exchange Contract:** 
-- regist asset into side chain with minimum data and handle asset exchange
+- regist asset into side chain with minimum data.
+- handle asset exchange.
 
 **Inter-chain Contract:**
 - inter-chain token exchange.
